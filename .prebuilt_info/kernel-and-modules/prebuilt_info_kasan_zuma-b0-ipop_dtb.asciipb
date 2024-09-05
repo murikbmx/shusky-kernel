@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "11523104"
+    target: "shusky_kasan"
+    source_file: "zuma-b0-ipop.dtb"
+  }
+  dest_file: "kasan/zuma-b0-ipop.dtb"
+  version: "11523104"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/shusky-kernel"
+}

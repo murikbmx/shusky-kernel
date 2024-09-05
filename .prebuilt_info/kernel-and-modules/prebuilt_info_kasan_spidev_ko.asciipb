@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "11523104"
+    target: "shusky_kasan"
+    source_file: "spidev.ko"
+  }
+  dest_file: "kasan/spidev.ko"
+  version: "11523104"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/shusky-kernel"
+}
